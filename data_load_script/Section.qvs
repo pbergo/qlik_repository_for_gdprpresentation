@@ -1,0 +1,99 @@
+///$tab Section
+// Use email as a unique value for each personal data records - but it may differ. Also concatenate of values in table may be
+// used for the finding unique key.
+
+Fakty:
+LOAD
+    ID,
+    	'ERP-'&ID as ID1,
+    first_name,
+    last_name,
+    company_name,
+    address,
+    city,
+    county,
+    phone1,
+    Created,
+    [Personal data category],
+       	Year(Created) as YearC,
+        Month(Created) as MonthC,
+        Week(Created) as WeekC,
+        Day(Created) as DayC,
+        
+    	'ERP' as System,
+        'ERP' as System1,
+        "Processing purpose defined" as "Processing purpose defined",
+    email,
+    	email as email1
+FROM [lib://Personal data/Dataset_3_systems.xlsx]
+(ooxml, embedded labels, table is ERP)
+Where ID>=1;
+
+
+concatenate(Fakty)
+LOAD
+    ID,
+    	'CRM-'&ID as ID1,    
+    first_name,
+    last_name,
+    company_name,
+    address,
+    city,
+    county,
+    phone1,
+    email,
+    Newsletter,
+    Created,
+    SMS,
+    [New offers],
+    Telephone,
+    [Personal data category],
+        Year(Created) as YearC,
+        Month(Created) as MonthC,
+        Week(Created) as WeekC,
+        Day(Created) as DayC,
+    	'CRM' as System,
+        'CRM' as System1,
+        "Processing purpose defined" as "Processing purpose defined",
+    "Marketing acceptance"
+FROM [lib://Personal data/Dataset_3_systems.xlsx]
+(ooxml, embedded labels, table is [CRM]);
+
+concatenate(Fakty)
+LOAD
+    ID,
+    	'Mailing-'&ID as ID1,
+    email,
+    Created,
+        Year(Created) as YearC,
+        Month(Created) as MonthC,
+        Week(Created) as WeekC,
+        Day(Created) as DayC,
+    	'MAILING' as System,
+        'MAILING' as System1,
+        [Personal data category],
+    	"Processing purpose defined" as "Processing purpose defined",
+    "Newsletter send"
+FROM [lib://Personal data/Dataset_3_systems.xlsx]
+(ooxml, embedded labels, table is [Mailing system]);
+
+
+NoConcatenate
+LOAD
+    "Liczba audytów bezp",
+    Data,
+    	Year(Data) as Year,
+        Month(Data) as Month,
+        Week(Data) as Week,
+        Day(Data) as Day
+    
+FROM [lib://Personal data/Dataset_3_systems.xlsx]
+(ooxml, embedded labels, table is Audit);
+
+//Tutaj dąłączam kolumnę z liczbą ile jest tych samych wartości w całej tabeli, muszę też to pogrupować
+left Join(Fakty)
+Load
+	email,
+    Count(DISTINCT System) as "Systems count"
+  Resident Fakty
+  Group by email;

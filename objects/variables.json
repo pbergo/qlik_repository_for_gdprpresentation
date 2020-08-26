@@ -1,0 +1,17 @@
+[
+  {
+    "qInfo": {
+      "qId": "7696cec7-810b-4242-89b9-317778e383e5",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vAuditRange",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "'\">=' & $(=max(AuditTimestampNum)-maketime(0,5)) & '<=' & $(=max(AuditTimestampNum)) &'\"'",
+    "tags": []
+  }
+]

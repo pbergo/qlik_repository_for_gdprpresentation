@@ -1,0 +1,182 @@
+[
+  {
+    "qInfo": {
+      "qId": "745b8de1-9768-446c-8a29-a90fadba02c8",
+      "qType": "bookmark"
+    },
+    "qMetaDef": {
+      "title": "Uncommon personal data in emailing system",
+      "description": ""
+    },
+    "creationDate": "2018-01-18T14:53:43.081Z",
+    "sheetId": "e5d06283-5e45-4ae2-b0e2-1004d4939cab",
+    "selectionFields": "email",
+    "qData": {
+      "qBookMark": {
+        "qStateData": [
+          {
+            "qStateName": "$",
+            "qFieldItems": [
+              {
+                "qDef": {
+                  "qName": "email",
+                  "qType": "PRESENT"
+                },
+                "qSelectInfo": {
+                  "qRangeLo": "NaN",
+                  "qRangeHi": "NaN",
+                  "qNumberFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  },
+                  "qRangeInfo": [],
+                  "qContinuousRangeInfo": []
+                },
+                "qValues": [],
+                "qExcludedValues": []
+              }
+            ]
+          }
+        ],
+        "qUtcModifyTime": 43118.62063657407,
+        "qVariableItems": []
+      }
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "8b35eb4f-32c1-413d-8de9-1df7a5f2f3b2",
+      "qType": "bookmark"
+    },
+    "qMetaDef": {
+      "title": "Common personal data in all three systems",
+      "description": "e.g. John Smith is a customer so has a record in ERP and may have opted into receiving marketing information so is also in CRM and mailing systems"
+    },
+    "creationDate": "2018-01-18T14:55:50.657Z",
+    "sheetId": "e5d06283-5e45-4ae2-b0e2-1004d4939cab",
+    "selectionFields": "email",
+    "qData": {
+      "qBookMark": {
+        "qStateData": [
+          {
+            "qStateName": "$",
+            "qFieldItems": [
+              {
+                "qDef": {
+                  "qName": "email",
+                  "qType": "PRESENT"
+                },
+                "qSelectInfo": {
+                  "qRangeLo": "NaN",
+                  "qRangeHi": "NaN",
+                  "qNumberFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  },
+                  "qRangeInfo": [],
+                  "qContinuousRangeInfo": []
+                },
+                "qValues": [],
+                "qExcludedValues": []
+              }
+            ]
+          }
+        ],
+        "qUtcModifyTime": 43118.62210648148,
+        "qVariableItems": []
+      }
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ae935c8e-45af-400b-a845-ee83075243c5",
+      "qType": "bookmark"
+    },
+    "qMetaDef": {
+      "title": "Uncommon personal data in ERP system",
+      "description": ""
+    },
+    "creationDate": "2018-01-18T14:54:33.159Z",
+    "sheetId": "e5d06283-5e45-4ae2-b0e2-1004d4939cab",
+    "selectionFields": "email",
+    "qData": {
+      "qBookMark": {
+        "qStateData": [
+          {
+            "qStateName": "$",
+            "qFieldItems": [
+              {
+                "qDef": {
+                  "qName": "email",
+                  "qType": "PRESENT"
+                },
+                "qSelectInfo": {
+                  "qRangeLo": "NaN",
+                  "qRangeHi": "NaN",
+                  "qNumberFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  },
+                  "qRangeInfo": [],
+                  "qContinuousRangeInfo": []
+                },
+                "qValues": [],
+                "qExcludedValues": []
+              }
+            ]
+          }
+        ],
+        "qUtcModifyTime": 43118.62121527778,
+        "qVariableItems": []
+      }
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "f9601bcf-cd46-470b-8acb-bc512090af37",
+      "qType": "bookmark"
+    },
+    "qMetaDef": {
+      "title": "Uncommon personal data in CRM system",
+      "description": ""
+    },
+    "creationDate": "2018-01-18T14:54:58.002Z",
+    "sheetId": "e5d06283-5e45-4ae2-b0e2-1004d4939cab",
+    "selectionFields": "email",
+    "qData": {
+      "qBookMark": {
+        "qStateData": [
+          {
+            "qStateName": "$",
+            "qFieldItems": [
+              {
+                "qDef": {
+                  "qName": "email",
+                  "qType": "PRESENT"
+                },
+                "qSelectInfo": {
+                  "qRangeLo": "NaN",
+                  "qRangeHi": "NaN",
+                  "qNumberFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  },
+                  "qRangeInfo": [],
+                  "qContinuousRangeInfo": []
+                },
+                "qValues": [],
+                "qExcludedValues": []
+              }
+            ]
+          }
+        ],
+        "qUtcModifyTime": 43118.62150462963,
+        "qVariableItems": []
+      }
+    }
+  }
+]

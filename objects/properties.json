@@ -1,0 +1,19 @@
+{
+  "qTitle": "GDPR - Presentation",
+  "qLastReloadTime": "2018-07-12T19:28:25.468Z",
+  "qMigrationHash": "98d482c3f964dccf69cbfb9a00e0c048ea6eb221",
+  "qSavedInProductVersion": "12.170.2",
+  "qThumbnail": {
+    "qUrl": "/appcontent/d7fa29e0-c3e0-403f-b83a-7d74e2f60d51/inAppSense_thumbnail_GDPR.jpg"
+  },
+  "createdDate": "2018-03-09T17:29:05.387Z",
+  "modifiedDate": "2018-07-25T14:52:24.178Z",
+  "published": true,
+  "publishTime": "2018-07-25T14:52:23.344Z",
+  "description": "Learn more about GDPR and how Qlik can help.",
+  "dynamicColor": "hsla(211,18%,43%,1)",
+  "stream": {
+    "id": "1b452e02-26b2-40bb-a09e-8d9f99705d74",
+    "name": "Hidden"
+  }
+}

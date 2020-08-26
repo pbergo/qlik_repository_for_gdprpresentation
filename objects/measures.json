@@ -1,0 +1,451 @@
+[
+  {
+    "qInfo": {
+      "qId": "ExqeHpm",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "# Table Rows",
+      "qDef": "Sum(Aggr(Sum([Table Number of Rows]), [Document Id], [Document Name]))",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "# Table Rows",
+      "description": "Total number of rows in the application/document. This is the sum of all the tables.",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "GujsFw",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "CRM.different",
+      "qDef": "Count(distinct [CRM.Concat])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0
+    },
+    "qMetaDef": {
+      "title": "CRM.different",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "NaBaWe",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "# of Applications All Time",
+      "qDef": "Count(distinct [Document Id])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "# of Applications All Time",
+      "description": "Total number of application that are and were in the Qlik Sense site since the first audit logs records.",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "QUPAYJu",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Shipp.different",
+      "qDef": "Count(distinct [Shipping System.Concant])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0
+    },
+    "qMetaDef": {
+      "title": "Shipp.different",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "TUpJALE",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Avg. # Selections per Session",
+      "qDef": "Avg(Aggr(Count({<FlgAuditMsgClear = {0}, AuditType ={\"Selection\"}  >}AuditId), AuditSessionKey, AuditActiveUserId))",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Avg. # Selections per Session",
+      "description": "Average number of selections a user does per session. This measure depends on Audit data.",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "VwJwCBJ",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Customers personal data",
+      "qDef": "count(email)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Customers personal data",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "WLwQmJS",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Shipping.surplus",
+      "qDef": "Count(distinct [Shipping System.Concant])-Count(distinct [CRM.Concat])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0
+    },
+    "qMetaDef": {
+      "title": "Shipping.surplus",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "WqgjJ",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "# of Exports",
+      "qDef": "Count(distinct [ExportId])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "# of Exports",
+      "description": "Total number of exports made at the Qlik Sense site.",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "XPqMtn",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "# of Users Exporting Past 30 Days",
+      "qDef": "Count(Distinct {<ExportDateNum = {\">=$(=num(Date(Today() - 30)))\"}>} ExportUserId)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "# of Users Exporting Past 30 Days",
+      "description": "Total number of users made at least one export in the last 30 days.",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "YKpNj",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "# Sessions",
+      "qDef": "Count(distinct AuditSessionKey)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "# Sessions",
+      "description": "Total number of sessions within the site. This measure depends on Audit data.",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "YhXJexn",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "# of Users",
+      "qDef": "count(distinct [Application User])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "# of Users",
+      "description": "Total number of users at the Qlik Sense site. This excludes internal users such as all the \"sa_*\" users.",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ZSXDtn",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "# of Interactions",
+      "qDef": "Count(distinct [AuditId])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "# of Interactions",
+      "description": "Total number of interactions users made at the Qlik Sense site.",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "eVZeEh",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Sales.surplus",
+      "qDef": "Count(distinct [Sales System.Concat])-Count(distinct [CRM.Concat])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0
+    },
+    "qMetaDef": {
+      "title": "Sales.surplus",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "eaDFaSs",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Distinct emails",
+      "qDef": "Count(Distinct email)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Distinct emails",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ecvwwmE",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "# of Applications Current",
+      "qDef": "Count(distinct {<[Document Name]=-{\"NA - Deleted Application\"}>} [Document Id])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "# of Applications Current",
+      "description": "Total number of application that are and were in the Qlik Sense site since the first audit logs records.",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "fmQr",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Personal data assessments",
+      "qDef": "Count([Liczba audytów bezp])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Personal data assessments",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "hvRuS",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Sales.different",
+      "qDef": "Count(distinct [Sales System.Concat])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0
+    },
+    "qMetaDef": {
+      "title": "Sales.different",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "mCaXf",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Marketing.Surplus",
+      "qDef": "IF((Count(distinct [Marketing System.Concat])-Count(distinct [CRM.Concat]))<0,'0',Count(distinct [Marketing System.Concat])-Count(distinct [CRM.Concat]))",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0
+    },
+    "qMetaDef": {
+      "title": "Marketing.Surplus",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "mTyG",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Marketing.different",
+      "qDef": "Count(distinct [Marketing System.Concat])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0
+    },
+    "qMetaDef": {
+      "title": "Marketing.different",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "nqfvnZX",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "# Source Library Connections",
+      "qDef": "count(distinct libName)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "# Source Library Connections",
+      "description": "Total number of distinct Library Connections. This does not refine based on specific files for folder connections.",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "pApPj",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "# Selections",
+      "qDef": "Count({<FlgAuditMsgClear = {0}, AuditType ={\"Selection\"}  >}AuditId)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "# Selections",
+      "description": "Number of selections made by users. This measure depends on Audit data.",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "paQpu",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "# of Exports Past 30 Days",
+      "qDef": "Count( {<ExportDateNum = {\">=$(=num(Date(Today() - 30)))\"}>} Distinct ExportId) ",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "# of Exports Past 30 Days",
+      "description": "Total number of exports made in the last 30 days triggered by the users.",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "tCHWVd",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "# Audit Users",
+      "qDef": "Count(Distinct AuditActiveUserId)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "# Audit Users",
+      "description": "Distinct number of users for Audit analysis. This will include internal users, contrary to the general # of Users measure. This measure depends on Audit data.",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "wcdvBXC",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "# of Exports w/ Sensitive Data",
+      "qDef": "Count(distinct {<[Sensitive Field]={\"Sensitive Field\"}>} [ExportId])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "# of Exports w/ Sensitive Data",
+      "description": "Total number of exports made at the Qlik Sense site.",
+      "tags": []
+    }
+  }
+]

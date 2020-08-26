@@ -1,0 +1,194 @@
+///$tab Load phase II QVDs
+LOAD
+    %KeyDocumentLineage,
+    "Lineage Document Id",
+    "Lineage Document Name",
+    "Document Published Date",
+    "Document File Size",
+    "Stream Name",
+    "Document Owner by UserId",
+    "Application User with Access",
+    DocumentNumber
+FROM [lib://GDPR/Phase II\Applications.qvd]
+(qvd);
+
+LOAD
+    "Connection Id",
+    "Connection Name",
+    "Connection String",
+    "Connection Type",
+    "Connection Modified Date",
+    "Connection User",
+    libName
+FROM [lib://GDPR/Phase II\Connections.qvd]
+(qvd);
+
+LOAD
+    "Field Document Id",
+    %KeyTable,
+    "Field Name",
+    %KeyUsedField,
+    "Field Id",
+    %KeyDocumentLineage,
+    "Field Information Density",
+    "Field Non Nulls",
+    "Field Number of Rows",
+    "Field Subset Ratio",
+    "Field Total Distinct Values",
+    "Field Present Distinct Values",
+    "Key Field",
+    "Field Has Duplicates",
+    %KeyFieldType,
+    %KeyScriptFieldName,
+    "Sensitive Field (Lineage)",
+    "Field Document Name",
+    "Field Stream Name"
+FROM [lib://GDPR/Phase II\Fields_Base.qvd]
+(qvd);
+
+LOAD
+    %keyLib,
+    libRow,
+    libName,
+    libConnectionString
+FROM [lib://GDPR/Phase II\Log Library Connections.qvd]
+(qvd);
+
+LOAD
+    "field",
+    AppId,
+    %KeyScriptFieldName,
+    ParsedScriptFieldName,
+    rowNumber,
+    "expr/type",
+    "expr/value",
+    "expr/function",
+    "expr/txt",
+    expression,
+    "expr/op",
+    %KeyParsedLoadStatement,
+    %Key_fields_6ACBBF333B6B11B3
+FROM [lib://GDPR/Phase II\ParsedFields.qvd]
+(qvd);
+
+LOAD
+    "tableName",
+    %keyLib,
+    keyLib,
+    statementType,
+    param,
+    sourceParam,
+    source,
+    sourceTable,
+    statementSourceType,
+    statementSource,
+    statementTable,
+    loadStartRow,
+    %KeyParsedLoadStatement
+FROM [lib://GDPR/Phase II\ParsedTables.qvd]
+(qvd);
+
+LOAD
+    "Document Id",
+    "Document Name",
+    "Application User",
+    "Application Username",
+    "User Role",
+    %AuditApplicationUserKey
+FROM [lib://GDPR/Phase II\QlikSenseAppsMetadata.qvd]
+(qvd);
+
+LOAD
+    %AuditKey,
+    Sequence#,
+    AuditTimestamp,
+    AuditTimestampText,
+    AuditYear,
+    AuditMonth,
+    AuditDay,
+    AuditHour,
+    AuditMinute,
+    AuditTime,
+    AuditDate,
+    AuditDateNum,
+    AuditDateText,
+    AuditTimestampNum,
+    AuditLevel,
+    AuditHostname,
+    AuditLogger,
+    AuditThread,
+    AuditId,
+    AuditServiceUser,
+    AuditMessage,
+    AuditProxySessionId,
+    AuditActiveUserDirectory,
+    AuditActiveUserId,
+    AuditUserFullName,
+    AuditEngineTimestamp,
+    AuditEngineThread,
+    AuditProcessId,
+    AuditSessionId,
+    AuditServerStarted,
+    AuditDocument,
+    AuditType,
+    AuditUser,
+    AuditSheetObjectId,
+    AuditSession,
+    AuditChecksum,
+    FlgAuditMsgClear,
+    AuditField,
+    AuditFieldSelections,
+    %AuditObjectKey,
+    %AuditApplicationUserKey,
+    %AuditObjectUserKey,
+    AuditSessionKey,
+    "%Sheet Object Id Extended",
+    AuditExistingObjectFlag
+FROM [lib://GDPR/Phase II\QlikSenseAudit.qvd]
+(qvd);
+
+LOAD
+    %ExportKey,
+    %AuditKey,
+    "ProductVersion",
+    ExportTimestamp,
+    ExportDate,
+    ExportDateNum,
+    ExportHostname,
+    ExportId,
+    ExportDescription,
+    ExportUserDirectory,
+    ExportUserId,
+    ExportUserFullName,
+    ExportSheetObjectId,
+    ExportObjectName,
+    ExportContext,
+    ExportCommand,
+    ExportResult,
+    ExportMessage
+FROM [lib://GDPR/Phase II\QlikSenseExports.qvd]
+(qvd);
+
+LOAD
+    "%Sheet Object Id Extended",
+    "Sheet Object Title",
+    %KeySheetObject,
+    "Sheet Object Id",
+    "Sheet Object Type",
+    "Used Field",
+    %KeyScriptFieldName,
+    "Sensitive Field"
+FROM [lib://GDPR/Phase II\Sheet Object Fields with Audit Interactions.qvd]
+(qvd);
+
+LOAD
+    "Table Name",
+    "Table Number of Rows",
+    %KeyTable,
+    TableNbr
+FROM [lib://GDPR/Phase II\Tables.qvd]
+(qvd);
+
+
+
+Exit Script;

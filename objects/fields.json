@@ -1,0 +1,1946 @@
+[
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Field",
+    "qCardinal": 169,
+    "qTags": [
+      "$text",
+      "$key",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$FieldNo",
+    "qCardinal": 45,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Fields",
+    "qCardinal": 10,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Info",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Rows",
+    "qCardinal": 13,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Table",
+    "qCardinal": 13,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qName": "%AuditApplicationUserKey",
+    "qCardinal": 303,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "QlikSenseAppsMetadata",
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "%AuditKey",
+    "qCardinal": 5410,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit",
+      "QlikSenseExports"
+    ]
+  },
+  {
+    "qName": "%AuditObjectKey",
+    "qCardinal": 647,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "%AuditObjectUserKey",
+    "qCardinal": 731,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "%ExportKey",
+    "qCardinal": 39,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseExports"
+    ]
+  },
+  {
+    "qName": "%KeyDocumentLineage",
+    "qCardinal": 94,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Applications",
+      "Fields_Base"
+    ]
+  },
+  {
+    "qName": "%KeyFieldType",
+    "qCardinal": 8031,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fields_Base"
+    ]
+  },
+  {
+    "qName": "%KeyParsedLoadStatement",
+    "qCardinal": 6128,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "ParsedFields",
+      "ParsedTables"
+    ]
+  },
+  {
+    "qName": "%KeyScriptFieldName",
+    "qCardinal": 9381,
+    "qTags": [
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Fields_Base",
+      "ParsedFields",
+      "Sheet Object Fields with Audit Interactions"
+    ]
+  },
+  {
+    "qName": "%KeySheetObject",
+    "qCardinal": 3884,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Sheet Object Fields with Audit Interactions"
+    ]
+  },
+  {
+    "qName": "%KeyTable",
+    "qCardinal": 1022,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Fields_Base",
+      "Tables"
+    ]
+  },
+  {
+    "qName": "%KeyUsedField",
+    "qCardinal": 7192,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fields_Base"
+    ]
+  },
+  {
+    "qName": "%Key_fields_6ACBBF333B6B11B3",
+    "qCardinal": 44337,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "ParsedFields"
+    ]
+  },
+  {
+    "qName": "%Sheet Object Id Extended",
+    "qCardinal": 4349,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit",
+      "Sheet Object Fields with Audit Interactions"
+    ]
+  },
+  {
+    "qName": "%keyLib",
+    "qCardinal": 6016,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Log Library Connections",
+      "ParsedTables"
+    ]
+  },
+  {
+    "qName": "AppId",
+    "qCardinal": 49,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ParsedFields"
+    ]
+  },
+  {
+    "qName": "Application User",
+    "qCardinal": 5,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAppsMetadata"
+    ]
+  },
+  {
+    "qName": "Application User with Access",
+    "qCardinal": 5,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Applications"
+    ]
+  },
+  {
+    "qName": "Application Username",
+    "qCardinal": 5,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAppsMetadata"
+    ]
+  },
+  {
+    "qName": "AuditActiveUserDirectory",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditActiveUserId",
+    "qCardinal": 5,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditChecksum",
+    "qCardinal": 5341,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditDate",
+    "qCardinal": 49,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditDateNum",
+    "qCardinal": 49,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditDateText",
+    "qCardinal": 49,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditDay",
+    "qCardinal": 25,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditDocument",
+    "qCardinal": 172,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditEngineThread",
+    "qCardinal": 398,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditEngineTimestamp",
+    "qCardinal": 5312,
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditExistingObjectFlag",
+    "qCardinal": 3,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditField",
+    "qCardinal": 187,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditFieldSelections",
+    "qCardinal": 931,
+    "qTags": [],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditHostname",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditHour",
+    "qCardinal": 19,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditId",
+    "qCardinal": 5341,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditLevel",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditLogger",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditMessage",
+    "qCardinal": 1170,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditMinute",
+    "qCardinal": 60,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditMonth",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditProcessId",
+    "qCardinal": 80,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditProxySessionId",
+    "qCardinal": 151,
+    "qTags": [],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditServerStarted",
+    "qCardinal": 90,
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditServiceUser",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditSession",
+    "qCardinal": 177,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditSessionId",
+    "qCardinal": 950,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditSessionKey",
+    "qCardinal": 538,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditSheetObjectId",
+    "qCardinal": 433,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditThread",
+    "qCardinal": 153,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditTime",
+    "qCardinal": 727,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditTimestamp",
+    "qCardinal": 5330,
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditTimestampNum",
+    "qCardinal": 5330,
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditTimestampText",
+    "qCardinal": 5330,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditType",
+    "qCardinal": 4,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditUser",
+    "qCardinal": 5,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditUserFullName",
+    "qCardinal": 5,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "AuditYear",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "Connection Id",
+    "qCardinal": 35,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Connections"
+    ]
+  },
+  {
+    "qName": "Connection Modified Date",
+    "qCardinal": 26,
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Connections"
+    ]
+  },
+  {
+    "qName": "Connection Name",
+    "qCardinal": 35,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Connections"
+    ]
+  },
+  {
+    "qName": "Connection String",
+    "qCardinal": 33,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Connections"
+    ]
+  },
+  {
+    "qName": "Connection Type",
+    "qCardinal": 7,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Connections"
+    ]
+  },
+  {
+    "qName": "Connection User",
+    "qCardinal": 5,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Connections"
+    ]
+  },
+  {
+    "qName": "Created",
+    "qCardinal": 208,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "Data",
+    "qCardinal": 20,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "LastNameMap"
+    ]
+  },
+  {
+    "qName": "Day",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "LastNameMap"
+    ]
+  },
+  {
+    "qName": "DayC",
+    "qCardinal": 31,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "Document File Size",
+    "qCardinal": 83,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Applications"
+    ]
+  },
+  {
+    "qName": "Document Id",
+    "qCardinal": 216,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAppsMetadata"
+    ]
+  },
+  {
+    "qName": "Document Name",
+    "qCardinal": 92,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAppsMetadata"
+    ]
+  },
+  {
+    "qName": "Document Owner by UserId",
+    "qCardinal": 6,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Applications"
+    ]
+  },
+  {
+    "qName": "Document Published Date",
+    "qCardinal": 9,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Applications"
+    ]
+  },
+  {
+    "qName": "DocumentNumber",
+    "qCardinal": 86,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Applications"
+    ]
+  },
+  {
+    "qName": "ExportCommand",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseExports"
+    ]
+  },
+  {
+    "qName": "ExportContext",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseExports"
+    ]
+  },
+  {
+    "qName": "ExportDate",
+    "qCardinal": 31,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "QlikSenseExports"
+    ]
+  },
+  {
+    "qName": "ExportDateNum",
+    "qCardinal": 31,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "QlikSenseExports"
+    ]
+  },
+  {
+    "qName": "ExportDescription",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseExports"
+    ]
+  },
+  {
+    "qName": "ExportHostname",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseExports"
+    ]
+  },
+  {
+    "qName": "ExportId",
+    "qCardinal": 135,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseExports"
+    ]
+  },
+  {
+    "qName": "ExportMessage",
+    "qCardinal": 56,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseExports"
+    ]
+  },
+  {
+    "qName": "ExportObjectName",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseExports"
+    ]
+  },
+  {
+    "qName": "ExportResult",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "QlikSenseExports"
+    ]
+  },
+  {
+    "qName": "ExportSheetObjectId",
+    "qCardinal": 25,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseExports"
+    ]
+  },
+  {
+    "qName": "ExportTimestamp",
+    "qCardinal": 135,
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "QlikSenseExports"
+    ]
+  },
+  {
+    "qName": "ExportUserDirectory",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseExports"
+    ]
+  },
+  {
+    "qName": "ExportUserFullName",
+    "qCardinal": 3,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseExports"
+    ]
+  },
+  {
+    "qName": "ExportUserId",
+    "qCardinal": 3,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseExports"
+    ]
+  },
+  {
+    "qName": "Field Document Id",
+    "qCardinal": 87,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fields_Base"
+    ]
+  },
+  {
+    "qName": "Field Document Name",
+    "qCardinal": 85,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fields_Base"
+    ]
+  },
+  {
+    "qName": "Field Has Duplicates",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fields_Base"
+    ]
+  },
+  {
+    "qName": "Field Id",
+    "qCardinal": 7192,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fields_Base"
+    ]
+  },
+  {
+    "qName": "Field Information Density",
+    "qCardinal": 429,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Fields_Base"
+    ]
+  },
+  {
+    "qName": "Field Name",
+    "qCardinal": 2590,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fields_Base"
+    ]
+  },
+  {
+    "qName": "Field Non Nulls",
+    "qCardinal": 706,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fields_Base"
+    ]
+  },
+  {
+    "qName": "Field Number of Rows",
+    "qCardinal": 409,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fields_Base"
+    ]
+  },
+  {
+    "qName": "Field Present Distinct Values",
+    "qCardinal": 1045,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fields_Base"
+    ]
+  },
+  {
+    "qName": "Field Stream Name",
+    "qCardinal": 18,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fields_Base"
+    ]
+  },
+  {
+    "qName": "Field Subset Ratio",
+    "qCardinal": 337,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Fields_Base"
+    ]
+  },
+  {
+    "qName": "Field Total Distinct Values",
+    "qCardinal": 1011,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fields_Base"
+    ]
+  },
+  {
+    "qName": "FlgAuditMsgClear",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "ID",
+    "qCardinal": 171,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "ID1",
+    "qCardinal": 375,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "Key Field",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fields_Base"
+    ]
+  },
+  {
+    "qName": "Liczba audytów bezp",
+    "qCardinal": 6,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "LastNameMap"
+    ]
+  },
+  {
+    "qName": "Lineage Document Id",
+    "qCardinal": 86,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Applications"
+    ]
+  },
+  {
+    "qName": "Lineage Document Name",
+    "qCardinal": 83,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Applications"
+    ]
+  },
+  {
+    "qName": "Marketing acceptance",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "Month",
+    "qCardinal": 6,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "LastNameMap"
+    ]
+  },
+  {
+    "qName": "MonthC",
+    "qCardinal": 12,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "New offers",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "Newsletter",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "Newsletter send",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "ParsedScriptFieldName",
+    "qCardinal": 2590,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "ParsedFields"
+    ]
+  },
+  {
+    "qName": "Personal data category",
+    "qCardinal": 3,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "Processing purpose defined",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "ProductVersion",
+    "qCardinal": 3,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseExports"
+    ]
+  },
+  {
+    "qName": "SMS",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "Sensitive Field",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Sheet Object Fields with Audit Interactions"
+    ]
+  },
+  {
+    "qName": "Sensitive Field (Lineage)",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fields_Base"
+    ]
+  },
+  {
+    "qName": "Sequence#",
+    "qCardinal": 1729,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "QlikSenseAudit"
+    ]
+  },
+  {
+    "qName": "Sheet Object Id",
+    "qCardinal": 2749,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Sheet Object Fields with Audit Interactions"
+    ]
+  },
+  {
+    "qName": "Sheet Object Title",
+    "qCardinal": 934,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Sheet Object Fields with Audit Interactions"
+    ]
+  },
+  {
+    "qName": "Sheet Object Type",
+    "qCardinal": 37,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Sheet Object Fields with Audit Interactions"
+    ]
+  },
+  {
+    "qName": "Stream Name",
+    "qCardinal": 18,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Applications"
+    ]
+  },
+  {
+    "qName": "System",
+    "qCardinal": 3,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "System1",
+    "qCardinal": 3,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "Systems count",
+    "qCardinal": 3,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "Table Name",
+    "qCardinal": 425,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Tables"
+    ]
+  },
+  {
+    "qName": "Table Number of Rows",
+    "qCardinal": 409,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Tables"
+    ]
+  },
+  {
+    "qName": "TableNbr",
+    "qCardinal": 1022,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Tables"
+    ]
+  },
+  {
+    "qName": "Telephone",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "Used Field",
+    "qCardinal": 175,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Sheet Object Fields with Audit Interactions"
+    ]
+  },
+  {
+    "qName": "User Role",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "QlikSenseAppsMetadata"
+    ]
+  },
+  {
+    "qName": "Week",
+    "qCardinal": 11,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "LastNameMap"
+    ]
+  },
+  {
+    "qName": "WeekC",
+    "qCardinal": 53,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "Year",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "LastNameMap"
+    ]
+  },
+  {
+    "qName": "YearC",
+    "qCardinal": 3,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "address",
+    "qCardinal": 233,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "city",
+    "qCardinal": 233,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "company_name",
+    "qCardinal": 233,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "county",
+    "qCardinal": 233,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "email",
+    "qCardinal": 261,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "email1",
+    "qCardinal": 128,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "expr/function",
+    "qCardinal": 35,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ParsedFields"
+    ]
+  },
+  {
+    "qName": "expr/op",
+    "qCardinal": 4,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ParsedFields"
+    ]
+  },
+  {
+    "qName": "expr/txt",
+    "qCardinal": 177,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ParsedFields"
+    ]
+  },
+  {
+    "qName": "expr/type",
+    "qCardinal": 6,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ParsedFields"
+    ]
+  },
+  {
+    "qName": "expr/value",
+    "qCardinal": 555,
+    "qTags": [],
+    "qSrcTables": [
+      "ParsedFields"
+    ]
+  },
+  {
+    "qName": "expression",
+    "qCardinal": 754,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "ParsedFields"
+    ]
+  },
+  {
+    "qName": "field",
+    "qCardinal": 693,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "ParsedFields"
+    ]
+  },
+  {
+    "qName": "first_name",
+    "qCardinal": 227,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "keyLib",
+    "qCardinal": 3642,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "ParsedTables"
+    ]
+  },
+  {
+    "qName": "last_name",
+    "qCardinal": 233,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "libConnectionString",
+    "qCardinal": 14,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Log Library Connections"
+    ]
+  },
+  {
+    "qName": "libName",
+    "qCardinal": 36,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Connections",
+      "Log Library Connections"
+    ]
+  },
+  {
+    "qName": "libRow",
+    "qCardinal": 284,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Log Library Connections"
+    ]
+  },
+  {
+    "qName": "loadStartRow",
+    "qCardinal": 5750,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "ParsedTables"
+    ]
+  },
+  {
+    "qName": "param",
+    "qCardinal": 7,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ParsedTables"
+    ]
+  },
+  {
+    "qName": "phone1",
+    "qCardinal": 234,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fakty"
+    ]
+  },
+  {
+    "qName": "rowNumber",
+    "qCardinal": 36963,
+    "qTags": [],
+    "qSrcTables": [
+      "ParsedFields"
+    ]
+  },
+  {
+    "qName": "source",
+    "qCardinal": 463,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ParsedTables"
+    ]
+  },
+  {
+    "qName": "sourceParam",
+    "qCardinal": 55,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ParsedTables"
+    ]
+  },
+  {
+    "qName": "sourceTable",
+    "qCardinal": 167,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ParsedTables"
+    ]
+  },
+  {
+    "qName": "statementSource",
+    "qCardinal": 463,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ParsedTables"
+    ]
+  },
+  {
+    "qName": "statementSourceType",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ParsedTables"
+    ]
+  },
+  {
+    "qName": "statementTable",
+    "qCardinal": 167,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ParsedTables"
+    ]
+  },
+  {
+    "qName": "statementType",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ParsedTables"
+    ]
+  },
+  {
+    "qName": "tableName",
+    "qCardinal": 274,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ParsedTables"
+    ]
+  }
+]

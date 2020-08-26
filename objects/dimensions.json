@@ -1,0 +1,1018 @@
+[
+  {
+    "qInfo": {
+      "qId": "1afbe741-3dac-4cb6-b500-6c676c329364",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Application Username"
+      ],
+      "qFieldLabels": [
+        "Application Username (Audit)"
+      ],
+      "title": "Application Username (Audit)",
+      "coloring": {
+        "colorMapRef": "evfKak",
+        "changeHash": "0.607582762138918"
+      }
+    },
+    "qMetaDef": {
+      "title": "Application Username (Audit)",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "5d959ff7-c8b5-4551-8168-9c65c80b7921",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Application User with Access"
+      ],
+      "qFieldLabels": [
+        "Application User with Access"
+      ],
+      "title": "Application User with Access",
+      "coloring": {
+        "colorMapRef": "evfKak",
+        "changeHash": "0.5827326537109911"
+      }
+    },
+    "qMetaDef": {
+      "title": "Application User with Access",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "6911a6a4-cfb2-4615-a823-fc7658d3e496",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Field Name"
+      ],
+      "qFieldLabels": [
+        "Field Name"
+      ],
+      "title": "Field Name",
+      "coloring": {
+        "colorMapRef": "evfKak",
+        "changeHash": "0.8572343676351011"
+      }
+    },
+    "qMetaDef": {
+      "title": "Field Name",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "7cb41c49-ff05-43e3-b43d-d6a0ebe54ef5",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "first_name"
+      ],
+      "qFieldLabels": [
+        "First name"
+      ],
+      "title": "First name",
+      "coloring": {
+        "colorMapRef": "Upcvmu",
+        "changeHash": "0.07110052416101098"
+      }
+    },
+    "qMetaDef": {
+      "title": "First name",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "92435fc3-a3fe-4c89-a56a-830ae02e2614",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Lineage Document Id"
+      ],
+      "qFieldLabels": [
+        "Reach Level 3"
+      ],
+      "title": "Reach Level 3",
+      "coloring": {
+        "colorMapRef": "XrtuMu",
+        "changeHash": "0.05572244385257363"
+      }
+    },
+    "qMetaDef": {
+      "title": "Reach Level 3",
+      "description": "Third level of  data sources origin overview.",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "BTmbha",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "H",
+      "qFieldDefs": [
+        "CRM.last_name",
+        "=first_name"
+      ],
+      "qFieldLabels": [],
+      "title": "First Last 1"
+    },
+    "qMetaDef": {
+      "title": "First Last 1",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "BbEFKTF",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "ExportDate"
+      ],
+      "qFieldLabels": [
+        "Export Date"
+      ],
+      "title": "Export Date",
+      "coloring": {
+        "changeHash": "0.5609195784199983"
+      }
+    },
+    "qMetaDef": {
+      "title": "Export Date",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "CnvjyH",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "email"
+      ],
+      "qFieldLabels": [
+        "Email"
+      ],
+      "title": "Email",
+      "coloring": {
+        "changeHash": "0.8276381047908217"
+      }
+    },
+    "qMetaDef": {
+      "title": "Email",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "HsRpSm",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "ExportCommand"
+      ],
+      "qFieldLabels": [
+        "Export Command"
+      ],
+      "title": "Export Command",
+      "coloring": {
+        "changeHash": "0.7798056798055768",
+        "colorMapRef": "HsRpSm"
+      }
+    },
+    "qMetaDef": {
+      "title": "Export Command",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "JLZjtp",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Personal data category"
+      ],
+      "qFieldLabels": [
+        "Personal data category"
+      ],
+      "title": "Personal data category",
+      "coloring": {
+        "changeHash": "0.39554923586547375"
+      }
+    },
+    "qMetaDef": {
+      "title": "Personal data category",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "JdwmXb",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Marketing acceptance"
+      ],
+      "qFieldLabels": [
+        "Marketing acceptance"
+      ],
+      "title": "Marketing acceptance",
+      "coloring": {
+        "changeHash": "0.022451753728091717"
+      }
+    },
+    "qMetaDef": {
+      "title": "Marketing acceptance",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "KPvhpCk",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Application User"
+      ],
+      "qFieldLabels": [
+        "Application User Fullname"
+      ],
+      "title": "Application User Fullname",
+      "coloring": {
+        "changeHash": "0.1994304049294442",
+        "colorMapRef": "KPvhpCk"
+      }
+    },
+    "qMetaDef": {
+      "title": "Application User Fullname",
+      "description": "User that has interacted with the Qlik Sense applications.",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "NjrmSV",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Connection Type"
+      ],
+      "qFieldLabels": [
+        "Data Source Connection Type"
+      ],
+      "title": "Data Source Connection Type",
+      "coloring": {
+        "changeHash": "0.779668836388737"
+      }
+    },
+    "qMetaDef": {
+      "title": "Data Source Connection Type",
+      "description": "Type of Data Source Library Connection",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "PXPKcHS",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "ExportUserId"
+      ],
+      "qFieldLabels": [
+        "Export User"
+      ],
+      "title": "Export User",
+      "coloring": {
+        "changeHash": "0.11866897251456976"
+      }
+    },
+    "qMetaDef": {
+      "title": "Export User",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "PcPMh",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "H",
+      "qFieldDefs": [
+        "=\"Processing purpose defined\"",
+        "=System"
+      ],
+      "qFieldLabels": [],
+      "title": "Processing purpose defined",
+      "coloring": {
+        "changeHash": "0.7325934553518891",
+        "colorMapRef": "PcPMh"
+      }
+    },
+    "qMetaDef": {
+      "title": "Processing purpose defined",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "RWmmP",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "H",
+      "qFieldDefs": [
+        "=\"Processing purpose defined\"",
+        "=email"
+      ],
+      "qFieldLabels": [],
+      "title": "Processing purpose defined + email",
+      "coloring": {
+        "changeHash": "0.39732569757992797"
+      }
+    },
+    "qMetaDef": {
+      "title": "Processing purpose defined + email",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ULeLgET",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "H",
+      "qFieldDefs": [
+        "AuditDate",
+        "AuditTime"
+      ],
+      "qFieldLabels": [],
+      "title": "Audit Date & Time Drill",
+      "coloring": {
+        "changeHash": "0.10726026236079633"
+      }
+    },
+    "qMetaDef": {
+      "title": "Audit Date & Time Drill",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "Upcvmu",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "last_name"
+      ],
+      "qFieldLabels": [
+        "Last name"
+      ],
+      "title": "Last name",
+      "coloring": {
+        "changeHash": "0.9997473962139338"
+      }
+    },
+    "qMetaDef": {
+      "title": "Last name",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "VunvNVh",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Newsletter"
+      ],
+      "qFieldLabels": [
+        "Receive mail newsletter"
+      ],
+      "title": "Receive mail newsletter",
+      "coloring": {
+        "changeHash": "0.7673966786824167",
+        "colorMapRef": "VunvNVh"
+      }
+    },
+    "qMetaDef": {
+      "title": "Receive mail newsletter",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "XrtuMu",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "libName"
+      ],
+      "qFieldLabels": [
+        "Reach Level 1"
+      ],
+      "title": "Reach Level 1",
+      "coloring": {
+        "changeHash": "0.5593417244963348"
+      }
+    },
+    "qMetaDef": {
+      "title": "Reach Level 1",
+      "description": "First level of  data sources origin overview.",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "b593a844-69c4-4bcc-9a30-f3d06941468e",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Application User with Access"
+      ],
+      "qFieldLabels": [
+        "Reach Level 4"
+      ],
+      "title": "Reach Level 4",
+      "coloring": {
+        "colorMapRef": "XrtuMu",
+        "changeHash": "0.6214374848641455"
+      }
+    },
+    "qMetaDef": {
+      "title": "Reach Level 4",
+      "description": "Fourth level of  data sources origin overview.",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "c8c5d18e-32a2-4fce-b1c0-eba21f53e196",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "AuditMinute"
+      ],
+      "qFieldLabels": [
+        "Audit Minute"
+      ],
+      "title": "Audit Minute",
+      "coloring": {
+        "colorMapRef": "c8c5d18e-32a2-4fce-b1c0-eba21f53e196",
+        "changeHash": "0.33854012633673847"
+      }
+    },
+    "qMetaDef": {
+      "title": "Audit Minute",
+      "description": "Date aggregation of audit actions per day.",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "cc1b0bc3-0244-426c-ba08-792692df776e",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Field Id"
+      ],
+      "qFieldLabels": [
+        "Reach Level 2"
+      ],
+      "title": "Reach Level 2",
+      "coloring": {
+        "colorMapRef": "XrtuMu",
+        "changeHash": "0.6289564513135701"
+      }
+    },
+    "qMetaDef": {
+      "title": "Reach Level 2",
+      "description": "Second level of  data sources origin overview.",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ccvJmT",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "H",
+      "qFieldDefs": [
+        "first_name",
+        "=[CRM.last_name]"
+      ],
+      "qFieldLabels": [],
+      "title": "First name Last name CRM"
+    },
+    "qMetaDef": {
+      "title": "First name Last name CRM",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "cfeb61c5-7b09-44b3-82f1-ce542c91133a",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Lineage Document Name"
+      ],
+      "qFieldLabels": [
+        "Lineage Document Name"
+      ],
+      "title": "Lineage Document Name",
+      "coloring": {
+        "colorMapRef": "evfKak",
+        "changeHash": "0.7412360310554504"
+      }
+    },
+    "qMetaDef": {
+      "title": "Lineage Document Name",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "dWScVn",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "AuditType"
+      ],
+      "qFieldLabels": [
+        "Type of Interaction"
+      ],
+      "title": "Type of Interaction",
+      "coloring": {
+        "changeHash": "0.5337595604360104",
+        "colorMapRef": "dWScVn"
+      }
+    },
+    "qMetaDef": {
+      "title": "Type of Interaction",
+      "description": "Type of audit recorded interaction made by a user, such as opening a document or making selections.",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "eXmVrE",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "SMS"
+      ],
+      "qFieldLabels": [
+        "SMS notification"
+      ],
+      "title": "SMS notification",
+      "coloring": {
+        "changeHash": "0.626406050985679"
+      }
+    },
+    "qMetaDef": {
+      "title": "SMS notification",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ehnEV",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Created"
+      ],
+      "qFieldLabels": [
+        "Created date"
+      ],
+      "title": "Created date",
+      "coloring": {
+        "changeHash": "0.9252379050012678"
+      }
+    },
+    "qMetaDef": {
+      "title": "Created date",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "evfKak",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "libName"
+      ],
+      "qFieldLabels": [
+        "Data Source Library Connection"
+      ],
+      "title": "Data Source Library Connection",
+      "coloring": {
+        "changeHash": "0.15595489204861224"
+      }
+    },
+    "qMetaDef": {
+      "title": "Data Source Library Connection",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "f2d66c7a-02f4-47ad-86ca-bbf7b06e95fb",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Stream Name"
+      ],
+      "qFieldLabels": [
+        "Stream Name"
+      ],
+      "title": "Stream Name",
+      "coloring": {
+        "colorMapRef": "evfKak",
+        "changeHash": "0.997429147362709"
+      }
+    },
+    "qMetaDef": {
+      "title": "Stream Name",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "f9f23e78-0379-40e2-ab1d-f2dbf7e299d0",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "AuditHour"
+      ],
+      "qFieldLabels": [
+        "Audit Hour"
+      ],
+      "title": "Audit Hour",
+      "coloring": {
+        "colorMapRef": "f9f23e78-0379-40e2-ab1d-f2dbf7e299d0",
+        "changeHash": "0.5919752179179341"
+      }
+    },
+    "qMetaDef": {
+      "title": "Audit Hour",
+      "description": "Date aggregation of audit actions per day.",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "fd1e37d4-25de-4cb2-b7b2-1df617cff30d",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "AuditActiveUserId"
+      ],
+      "qFieldLabels": [
+        "Audit Username"
+      ],
+      "title": "Audit Username",
+      "coloring": {
+        "colorMapRef": "trpjA",
+        "changeHash": "0.4126332481391728"
+      }
+    },
+    "qMetaDef": {
+      "title": "Audit Username",
+      "description": "Username (without directory) of the user that triggered an audit event.",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "hYjXEd",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "System"
+      ],
+      "qFieldLabels": [
+        "Systems"
+      ],
+      "title": "Systems",
+      "coloring": {
+        "changeHash": "0.7807941883802414"
+      }
+    },
+    "qMetaDef": {
+      "title": "Systems",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "hakufJh",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Processing purpose defined"
+      ],
+      "qFieldLabels": [
+        "Processing purpose defined"
+      ],
+      "title": "Processing purpose defined",
+      "coloring": {
+        "changeHash": "0.4027890849392861"
+      }
+    },
+    "qMetaDef": {
+      "title": "Processing purpose defined",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "jEJFeV",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "H",
+      "qFieldDefs": [
+        "=[Marketing acceptance]",
+        "=Newsletter"
+      ],
+      "qFieldLabels": [],
+      "title": "zx",
+      "coloring": {
+        "changeHash": "0.14117337949573994",
+        "colorMapRef": "jEJFeV"
+      }
+    },
+    "qMetaDef": {
+      "title": "zx",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "myP",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "H",
+      "qFieldDefs": [
+        "=[Marketing acceptance]",
+        "=System",
+        "=email"
+      ],
+      "qFieldLabels": [],
+      "title": "x",
+      "coloring": {
+        "changeHash": "0.9496826364193112",
+        "colorMapRef": "myP"
+      }
+    },
+    "qMetaDef": {
+      "title": "x",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "pprgNCx",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "H",
+      "qFieldDefs": [
+        "=\"Systems count\"",
+        "=System",
+        "=email"
+      ],
+      "qFieldLabels": [],
+      "title": "Systemd",
+      "coloring": {
+        "changeHash": "0.6066715416964144",
+        "colorMapRef": "pprgNCx"
+      }
+    },
+    "qMetaDef": {
+      "title": "Systemd",
+      "description": "Amount",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "pqvaT",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "H",
+      "qFieldDefs": [
+        "first_name",
+        "=[CRM.last_name]"
+      ],
+      "qFieldLabels": [],
+      "title": "First Last"
+    },
+    "qMetaDef": {
+      "title": "First Last",
+      "description": "",
+      "tags": [
+        "First Last"
+      ]
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "trpjA",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "AuditDate"
+      ],
+      "qFieldLabels": [
+        "Audit Date"
+      ],
+      "title": "Audit Date",
+      "coloring": {
+        "changeHash": "0.7800672713201493",
+        "colorMapRef": "trpjA"
+      }
+    },
+    "qMetaDef": {
+      "title": "Audit Date",
+      "description": "Date aggregation of audit actions per day.",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "uPhAeuY",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Document Name"
+      ],
+      "qFieldLabels": [
+        "Application Name"
+      ],
+      "title": "Application Name",
+      "coloring": {
+        "changeHash": "0.8857036756817251",
+        "colorMapRef": "uPhAeuY"
+      }
+    },
+    "qMetaDef": {
+      "title": "Application Name",
+      "description": "Qlik Sense application identified by it's name. Warning: applications with same will all be selected.",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "vrQLjhv",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "New offers"
+      ],
+      "qFieldLabels": [
+        "Receive new offer notifications"
+      ],
+      "title": "Receive new offer notifications",
+      "coloring": {
+        "changeHash": "0.5659541480708867"
+      }
+    },
+    "qMetaDef": {
+      "title": "Receive new offer notifications",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "vyUmt",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Application Username"
+      ],
+      "qFieldLabels": [
+        "Application Username"
+      ],
+      "title": "Application Username",
+      "coloring": {
+        "changeHash": "0.8497407855466008"
+      }
+    },
+    "qMetaDef": {
+      "title": "Application Username",
+      "description": "User that has interacted with the Qlik Sense applications. Shortened version without Directory indication.",
+      "tags": []
+    }
+  }
+]

@@ -1,0 +1,60 @@
+///$tab Load from QVDs
+//Maps to add first and last name to the system=mailing records
+FirstNameMap:
+Mapping Load Distinct
+    email,
+    first_name
+FROM [lib://GDPR/Fakty.qvd]
+(qvd)
+Where Not IsNull(first_name);
+
+LastNameMap:
+Mapping Load Distinct
+    email,
+    last_name
+FROM [lib://GDPR/Fakty.qvd]
+(qvd)
+Where Not IsNull(last_name);
+
+
+//Load data
+LOAD
+    "Liczba audytów bezp",
+    Data,
+    "Year",
+    "Month",
+    "Week",
+    "Day"
+FROM [lib://GDPR/Audit.qvd]
+(qvd);
+
+LOAD
+    email,
+    ID,
+    ID1,
+    If((IsNull(first_name)) and System='MAILING', ApplyMap('FirstNameMap', email, first_name), first_name) as first_name,
+    If(IsNull(last_name) and System='MAILING', ApplyMap('LastNameMap', email, last_name), last_name) as last_name,
+    company_name,
+    address,
+    city,
+    county,
+    phone1,
+    Created,
+    "Personal data category",
+    YearC,
+    MonthC,
+    WeekC,
+    DayC,
+    System,
+    System1,
+    "Processing purpose defined",
+    email1,
+    Newsletter,
+    SMS,
+    "New offers",
+    Telephone,
+    "Marketing acceptance",
+    "Newsletter send",
+    "Systems count"
+FROM [lib://GDPR/Fakty.qvd]
+(qvd);

@@ -1,0 +1,23 @@
+[
+  {
+    "qProperty": {
+      "qInfo": {
+        "qId": "c9c16d1a-25bd-4e60-897a-54694cb37027",
+        "qType": "appprops"
+      },
+      "qMetaDef": {},
+      "sheetTitleBgColor": "#4477aa",
+      "sheetTitleGradientColor": "#ffffff",
+      "sheetTitleColor": "#ffffff",
+      "sheetLogoThumbnail": {
+        "qStaticContentUrlDef": {
+          "qUrl": "/appcontent/d7fa29e0-c3e0-403f-b83a-7d74e2f60d51/GDPR.png"
+        }
+      },
+      "sheetLogoPosition": "right",
+      "rtl": false,
+      "theme": "sense"
+    },
+    "qChildren": []
+  }
+]

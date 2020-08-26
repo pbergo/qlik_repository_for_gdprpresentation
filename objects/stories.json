@@ -1,0 +1,869 @@
+[
+  {
+    "qProperty": {
+      "qInfo": {
+        "qId": "f0392e7a-bab8-454c-9678-899d37bff8f2",
+        "qType": "story"
+      },
+      "qMetaDef": {
+        "title": "GDPR Presentation",
+        "description": ""
+      },
+      "rank": 0,
+      "thumbnail": {
+        "qStaticContentUrlDef": {}
+      },
+      "qChildListDef": {
+        "qData": {
+          "title": "/title",
+          "rank": "/rank"
+        }
+      }
+    },
+    "qChildren": [
+      {
+        "qProperty": {
+          "qInfo": {
+            "qId": "kYkqqT",
+            "qType": "slide"
+          },
+          "qMetaDef": {},
+          "rank": 4,
+          "qChildListDef": {
+            "qData": {
+              "title": "/title",
+              "sheetId": "/sheetId",
+              "ratio": "/ratio",
+              "position": "/position",
+              "dataPath": "/dataPath",
+              "srcPath": "/srcPath",
+              "visualization": "/visualization",
+              "visualizationType": "/visualizationType",
+              "style": "/style"
+            }
+          }
+        },
+        "qChildren": [
+          {
+            "qProperty": {
+              "qInfo": {
+                "qId": "gQPPVKQ",
+                "qType": "slideitem"
+              },
+              "qMetaDef": {},
+              "qEmbeddedSnapshotDef": {},
+              "title": "",
+              "sheetId": "",
+              "ratio": true,
+              "position": {
+                "top": "0.00000%",
+                "left": "6.24944%",
+                "width": "87.70127%",
+                "height": "87.76066%",
+                "z-index": 4,
+                "right": "auto"
+              },
+              "srcPath": {
+                "qStaticContentUrlDef": {
+                  "qUrl": "/appcontent/d7fa29e0-c3e0-403f-b83a-7d74e2f60d51/GDPR Solution - what it.jpg"
+                }
+              },
+              "visualization": "image"
+            },
+            "qChildren": []
+          },
+          {
+            "qProperty": {
+              "qInfo": {
+                "qId": "nvuX",
+                "qType": "slideitem"
+              },
+              "qMetaDef": {},
+              "qEmbeddedSnapshotDef": {},
+              "title": "",
+              "sheetId": "",
+              "ratio": true,
+              "position": {
+                "top": "70.37087%",
+                "left": "83.33376%",
+                "width": "15.08815%",
+                "height": "26.64753%",
+                "z-index": 5,
+                "right": "auto"
+              },
+              "srcPath": {
+                "qStaticContentUrlDef": {
+                  "qUrl": "/appcontent/d7fa29e0-c3e0-403f-b83a-7d74e2f60d51/calendar-GDPR.jpg"
+                }
+              },
+              "visualization": "image"
+            },
+            "qChildren": []
+          },
+          {
+            "qProperty": {
+              "qInfo": {
+                "qId": "BbPGFmc",
+                "qType": "slideitem"
+              },
+              "qMetaDef": {},
+              "qEmbeddedSnapshotDef": {},
+              "title": "",
+              "sheetId": "",
+              "ratio": true,
+              "position": {
+                "top": "77.77712%",
+                "left": "2.08322%",
+                "width": "21.97957%",
+                "height": "17.76361%",
+                "z-index": 6,
+                "right": "auto"
+              },
+              "srcPath": {
+                "qStaticContentUrlDef": {
+                  "qUrl": "/appcontent/d7fa29e0-c3e0-403f-b83a-7d74e2f60d51/GDPR.png"
+                }
+              },
+              "visualization": "image",
+              "id": "XDFbtF",
+              "copiedFromSlide": "PMpCZ",
+              "action": "cut"
+            },
+            "qChildren": []
+          }
+        ]
+      },
+      {
+        "qProperty": {
+          "qInfo": {
+            "qId": "bsjLRt",
+            "qType": "slide"
+          },
+          "qMetaDef": {},
+          "rank": 1,
+          "qChildListDef": {
+            "qData": {
+              "title": "/title",
+              "sheetId": "/sheetId",
+              "ratio": "/ratio",
+              "position": "/position",
+              "dataPath": "/dataPath",
+              "srcPath": "/srcPath",
+              "visualization": "/visualization",
+              "visualizationType": "/visualizationType",
+              "style": "/style"
+            }
+          }
+        },
+        "qChildren": [
+          {
+            "qProperty": {
+              "qInfo": {
+                "qId": "PYDbFJ",
+                "qType": "slideitem"
+              },
+              "qMetaDef": {},
+              "qEmbeddedSnapshotDef": {},
+              "title": "",
+              "sheetId": "",
+              "ratio": true,
+              "position": {
+                "top": "8.83777%",
+                "left": "33.20156%",
+                "width": "31.29476%",
+                "height": "35.45199%",
+                "z-index": 5,
+                "right": "auto"
+              },
+              "srcPath": {
+                "qStaticContentUrlDef": {
+                  "qUrl": "/appcontent/d7fa29e0-c3e0-403f-b83a-7d74e2f60d51/have-you-heard-about-the-GDPR.png"
+                }
+              },
+              "visualization": "image"
+            },
+            "qChildren": []
+          },
+          {
+            "qProperty": {
+              "qInfo": {
+                "qId": "AgwcG",
+                "qType": "slideitem"
+              },
+              "qMetaDef": {},
+              "qEmbeddedSnapshotDef": {},
+              "title": "",
+              "sheetId": "",
+              "ratio": true,
+              "position": {
+                "top": "51.85081%",
+                "left": "39.58330%",
+                "width": "18.53753%",
+                "height": "10.79682%",
+                "z-index": 4,
+                "right": "auto"
+              },
+              "srcPath": {
+                "qStaticContentUrlDef": {
+                  "qUrl": "/appcontent/d7fa29e0-c3e0-403f-b83a-7d74e2f60d51/Qlik logo.png"
+                }
+              },
+              "visualization": "image"
+            },
+            "qChildren": []
+          },
+          {
+            "qProperty": {
+              "qInfo": {
+                "qId": "cGBJXg",
+                "qType": "slideitem"
+              },
+              "qMetaDef": {},
+              "qEmbeddedSnapshotDef": {},
+              "title": "",
+              "sheetId": "",
+              "ratio": false,
+              "position": {
+                "top": "66.66664%",
+                "left": "24.99971%",
+                "width": "59.05870%",
+                "height": "10.77114%",
+                "z-index": 6,
+                "right": "auto"
+              },
+              "visualization": "text",
+              "visualizationType": "paragraph",
+              "style": {
+                "color": "#6E6E6E",
+                "text": "%[your #[partner ](6)in a new era of compliance](5)"
+              }
+            },
+            "qChildren": []
+          }
+        ]
+      },
+      {
+        "qProperty": {
+          "qInfo": {
+            "qId": "Jajxh",
+            "qType": "slide"
+          },
+          "qMetaDef": {},
+          "rank": 12,
+          "qChildListDef": {
+            "qData": {
+              "title": "/title",
+              "sheetId": "/sheetId",
+              "ratio": "/ratio",
+              "position": "/position",
+              "dataPath": "/dataPath",
+              "srcPath": "/srcPath",
+              "visualization": "/visualization",
+              "visualizationType": "/visualizationType",
+              "style": "/style"
+            }
+          }
+        },
+        "qChildren": [
+          {
+            "qProperty": {
+              "qInfo": {
+                "qId": "PrsPjzA",
+                "qType": "slideitem"
+              },
+              "qMetaDef": {},
+              "qEmbeddedSnapshotDef": {},
+              "title": "",
+              "sheetId": "dc89c8d1-417d-4344-af6b-52e6d5cd2d0f",
+              "ratio": false,
+              "position": {
+                "top": "1%",
+                "left": "1.5%",
+                "width": "94%",
+                "height": "98%",
+                "z-index": 4
+              },
+              "visualization": "sheet"
+            },
+            "qChildren": [],
+            "qEmbeddedSnapshotRef": {
+              "qProperties": {
+                "qInfo": {
+                  "qId": "3052e67b-6aca-4235-ac82-5f6d4abd31d5",
+                  "qType": "embeddedsnapshot"
+                },
+                "qMetaDef": {
+                  "title": "",
+                  "description": ""
+                },
+                "creationDate": "2017-10-16T14:08:02.885Z",
+                "title": "",
+                "sheetId": "dc89c8d1-417d-4344-af6b-52e6d5cd2d0f",
+                "selectionFields": []
+              },
+              "qBookmark": {
+                "qStateData": [
+                  {
+                    "qStateName": "$",
+                    "qFieldItems": []
+                  }
+                ],
+                "qUtcModifyTime": 43024.67224537037,
+                "qVariableItems": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "qProperty": {
+          "qInfo": {
+            "qId": "aHhYL",
+            "qType": "slide"
+          },
+          "qMetaDef": {},
+          "rank": 5,
+          "qChildListDef": {
+            "qData": {
+              "title": "/title",
+              "sheetId": "/sheetId",
+              "ratio": "/ratio",
+              "position": "/position",
+              "dataPath": "/dataPath",
+              "srcPath": "/srcPath",
+              "visualization": "/visualization",
+              "visualizationType": "/visualizationType",
+              "style": "/style"
+            }
+          }
+        },
+        "qChildren": [
+          {
+            "qProperty": {
+              "qInfo": {
+                "qId": "zZJJSF",
+                "qType": "slideitem"
+              },
+              "qMetaDef": {},
+              "qEmbeddedSnapshotDef": {},
+              "title": "",
+              "sheetId": "",
+              "ratio": true,
+              "position": {
+                "top": "0.00000%",
+                "left": "6.24944%",
+                "width": "87.70127%",
+                "height": "87.76066%",
+                "z-index": 4,
+                "right": "auto"
+              },
+              "srcPath": {
+                "qStaticContentUrlDef": {
+                  "qUrl": "/appcontent/d7fa29e0-c3e0-403f-b83a-7d74e2f60d51/GDPR Solution - examples.jpg"
+                }
+              },
+              "visualization": "image"
+            },
+            "qChildren": []
+          }
+        ]
+      },
+      {
+        "qProperty": {
+          "qInfo": {
+            "qId": "WxGAj",
+            "qType": "slide"
+          },
+          "qMetaDef": {},
+          "rank": 6,
+          "qChildListDef": {
+            "qData": {
+              "title": "/title",
+              "sheetId": "/sheetId",
+              "ratio": "/ratio",
+              "position": "/position",
+              "dataPath": "/dataPath",
+              "srcPath": "/srcPath",
+              "visualization": "/visualization",
+              "visualizationType": "/visualizationType",
+              "style": "/style"
+            }
+          }
+        },
+        "qChildren": [
+          {
+            "qProperty": {
+              "qInfo": {
+                "qId": "TGBvXxm",
+                "qType": "slideitem"
+              },
+              "qMetaDef": {},
+              "qEmbeddedSnapshotDef": {},
+              "title": "",
+              "sheetId": "",
+              "ratio": true,
+              "position": {
+                "top": "-3.70345%",
+                "left": "0.00000%",
+                "width": "100.20235%",
+                "height": "107.01032%",
+                "z-index": 4,
+                "right": "auto"
+              },
+              "srcPath": {
+                "qStaticContentUrlDef": {
+                  "qUrl": "/appcontent/d7fa29e0-c3e0-403f-b83a-7d74e2f60d51/GDP_Qlik - Copy 2.jpg"
+                }
+              },
+              "visualization": "image"
+            },
+            "qChildren": []
+          }
+        ]
+      },
+      {
+        "qProperty": {
+          "qInfo": {
+            "qId": "prpTD",
+            "qType": "slide"
+          },
+          "qMetaDef": {},
+          "rank": 7,
+          "qChildListDef": {
+            "qData": {
+              "title": "/title",
+              "sheetId": "/sheetId",
+              "ratio": "/ratio",
+              "position": "/position",
+              "dataPath": "/dataPath",
+              "srcPath": "/srcPath",
+              "visualization": "/visualization",
+              "visualizationType": "/visualizationType",
+              "style": "/style"
+            }
+          }
+        },
+        "qChildren": [
+          {
+            "qProperty": {
+              "qInfo": {
+                "qId": "XHNEj",
+                "qType": "slideitem"
+              },
+              "qMetaDef": {},
+              "qEmbeddedSnapshotDef": {},
+              "title": "",
+              "sheetId": "",
+              "ratio": true,
+              "position": {
+                "top": "-100%",
+                "left": "-100%",
+                "width": "1%",
+                "height": "1%",
+                "z-index": 4
+              },
+              "srcPath": {
+                "qStaticContentUrlDef": {}
+              },
+              "visualization": "image"
+            },
+            "qChildren": []
+          },
+          {
+            "qProperty": {
+              "qInfo": {
+                "qId": "gJdaj",
+                "qType": "slideitem"
+              },
+              "qMetaDef": {},
+              "qEmbeddedSnapshotDef": {},
+              "title": "",
+              "sheetId": "",
+              "ratio": true,
+              "position": {
+                "top": "3.70345%",
+                "left": "6.24944%",
+                "width": "87.70127%",
+                "height": "87.76066%",
+                "z-index": 5,
+                "right": "auto"
+              },
+              "srcPath": {
+                "qStaticContentUrlDef": {
+                  "qUrl": "/appcontent/d7fa29e0-c3e0-403f-b83a-7d74e2f60d51/GDPR Solution - dataset.jpg"
+                }
+              },
+              "visualization": "image"
+            },
+            "qChildren": []
+          }
+        ]
+      },
+      {
+        "qProperty": {
+          "qInfo": {
+            "qId": "SbXmPG",
+            "qType": "slide"
+          },
+          "qMetaDef": {},
+          "rank": 8,
+          "qChildListDef": {
+            "qData": {
+              "title": "/title",
+              "sheetId": "/sheetId",
+              "ratio": "/ratio",
+              "position": "/position",
+              "dataPath": "/dataPath",
+              "srcPath": "/srcPath",
+              "visualization": "/visualization",
+              "visualizationType": "/visualizationType",
+              "style": "/style"
+            }
+          }
+        },
+        "qChildren": [
+          {
+            "qProperty": {
+              "qInfo": {
+                "qId": "smjUzNw",
+                "qType": "slideitem"
+              },
+              "qMetaDef": {},
+              "qEmbeddedSnapshotDef": {},
+              "title": "",
+              "sheetId": "674d02de-6fdf-44a6-bac7-88a77135c571",
+              "ratio": false,
+              "position": {
+                "top": "1%",
+                "left": "1.5%",
+                "width": "94%",
+                "height": "98%",
+                "z-index": 4
+              },
+              "visualization": "sheet"
+            },
+            "qChildren": [],
+            "qEmbeddedSnapshotRef": {
+              "qProperties": {
+                "qInfo": {
+                  "qId": "cadda6dd-6f13-448f-a908-a305608e280f",
+                  "qType": "embeddedsnapshot"
+                },
+                "qMetaDef": {
+                  "title": "",
+                  "description": ""
+                },
+                "creationDate": "2017-10-16T14:07:46.858Z",
+                "title": "",
+                "sheetId": "674d02de-6fdf-44a6-bac7-88a77135c571",
+                "selectionFields": []
+              },
+              "qBookmark": {
+                "qStateData": [
+                  {
+                    "qStateName": "$",
+                    "qFieldItems": []
+                  }
+                ],
+                "qUtcModifyTime": 43024.672060185185,
+                "qVariableItems": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "qProperty": {
+          "qInfo": {
+            "qId": "bCtpQ",
+            "qType": "slide"
+          },
+          "qMetaDef": {},
+          "rank": 9,
+          "qChildListDef": {
+            "qData": {
+              "title": "/title",
+              "sheetId": "/sheetId",
+              "ratio": "/ratio",
+              "position": "/position",
+              "dataPath": "/dataPath",
+              "srcPath": "/srcPath",
+              "visualization": "/visualization",
+              "visualizationType": "/visualizationType",
+              "style": "/style"
+            }
+          }
+        },
+        "qChildren": [
+          {
+            "qProperty": {
+              "qInfo": {
+                "qId": "AWpBh",
+                "qType": "slideitem"
+              },
+              "qMetaDef": {},
+              "qEmbeddedSnapshotDef": {},
+              "title": "",
+              "sheetId": "e5d06283-5e45-4ae2-b0e2-1004d4939cab",
+              "ratio": false,
+              "position": {
+                "top": "1%",
+                "left": "1.5%",
+                "width": "94%",
+                "height": "98%",
+                "z-index": 4
+              },
+              "visualization": "sheet"
+            },
+            "qChildren": [],
+            "qEmbeddedSnapshotRef": {
+              "qProperties": {
+                "qInfo": {
+                  "qId": "48063b02-581b-493a-a160-a5335e8a321c",
+                  "qType": "embeddedsnapshot"
+                },
+                "qMetaDef": {
+                  "title": "",
+                  "description": ""
+                },
+                "creationDate": "2017-10-16T14:07:49.925Z",
+                "title": "",
+                "sheetId": "e5d06283-5e45-4ae2-b0e2-1004d4939cab",
+                "selectionFields": []
+              },
+              "qBookmark": {
+                "qStateData": [
+                  {
+                    "qStateName": "$",
+                    "qFieldItems": []
+                  }
+                ],
+                "qUtcModifyTime": 43024.67209490741,
+                "qVariableItems": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "qProperty": {
+          "qInfo": {
+            "qId": "cjQTrj",
+            "qType": "slide"
+          },
+          "qMetaDef": {},
+          "rank": 10,
+          "qChildListDef": {
+            "qData": {
+              "title": "/title",
+              "sheetId": "/sheetId",
+              "ratio": "/ratio",
+              "position": "/position",
+              "dataPath": "/dataPath",
+              "srcPath": "/srcPath",
+              "visualization": "/visualization",
+              "visualizationType": "/visualizationType",
+              "style": "/style"
+            }
+          }
+        },
+        "qChildren": [
+          {
+            "qProperty": {
+              "qInfo": {
+                "qId": "sQpDmW",
+                "qType": "slideitem"
+              },
+              "qMetaDef": {},
+              "qEmbeddedSnapshotDef": {},
+              "title": "",
+              "sheetId": "e0b30d30-7732-42fb-87fe-69b6b756c445",
+              "ratio": false,
+              "position": {
+                "top": "1%",
+                "left": "1.5%",
+                "width": "94%",
+                "height": "98%",
+                "z-index": 4
+              },
+              "visualization": "sheet"
+            },
+            "qChildren": [],
+            "qEmbeddedSnapshotRef": {
+              "qProperties": {
+                "qInfo": {
+                  "qId": "18985ac6-9869-4b11-be3d-05791b8c727b",
+                  "qType": "embeddedsnapshot"
+                },
+                "qMetaDef": {
+                  "title": "",
+                  "description": ""
+                },
+                "creationDate": "2017-10-16T14:07:56.178Z",
+                "title": "",
+                "sheetId": "e0b30d30-7732-42fb-87fe-69b6b756c445",
+                "selectionFields": []
+              },
+              "qBookmark": {
+                "qStateData": [
+                  {
+                    "qStateName": "$",
+                    "qFieldItems": []
+                  }
+                ],
+                "qUtcModifyTime": 43024.67217592592,
+                "qVariableItems": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "qProperty": {
+          "qInfo": {
+            "qId": "snZsCH",
+            "qType": "slide"
+          },
+          "qMetaDef": {},
+          "rank": 11,
+          "qChildListDef": {
+            "qData": {
+              "title": "/title",
+              "sheetId": "/sheetId",
+              "ratio": "/ratio",
+              "position": "/position",
+              "dataPath": "/dataPath",
+              "srcPath": "/srcPath",
+              "visualization": "/visualization",
+              "visualizationType": "/visualizationType",
+              "style": "/style"
+            }
+          }
+        },
+        "qChildren": [
+          {
+            "qProperty": {
+              "qInfo": {
+                "qId": "mnGLw",
+                "qType": "slideitem"
+              },
+              "qMetaDef": {},
+              "qEmbeddedSnapshotDef": {},
+              "title": "",
+              "sheetId": "df37b756-8c08-417d-9296-14fb4cc86ac8",
+              "ratio": false,
+              "position": {
+                "top": "1%",
+                "left": "1.5%",
+                "width": "94%",
+                "height": "98%",
+                "z-index": 4
+              },
+              "visualization": "sheet"
+            },
+            "qChildren": [],
+            "qEmbeddedSnapshotRef": {
+              "qProperties": {
+                "qInfo": {
+                  "qId": "63063b20-2501-4fb2-99db-3d58454fe43b",
+                  "qType": "embeddedsnapshot"
+                },
+                "qMetaDef": {
+                  "title": "",
+                  "description": ""
+                },
+                "creationDate": "2017-10-16T14:07:59.911Z",
+                "title": "",
+                "sheetId": "df37b756-8c08-417d-9296-14fb4cc86ac8",
+                "selectionFields": []
+              },
+              "qBookmark": {
+                "qStateData": [
+                  {
+                    "qStateName": "$",
+                    "qFieldItems": []
+                  }
+                ],
+                "qUtcModifyTime": 43024.67221064815,
+                "qVariableItems": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "qProperty": {
+          "qInfo": {
+            "qId": "tayUdZJ",
+            "qType": "slide"
+          },
+          "qMetaDef": {},
+          "rank": 11.75,
+          "qChildListDef": {
+            "qData": {
+              "title": "/title",
+              "sheetId": "/sheetId",
+              "ratio": "/ratio",
+              "position": "/position",
+              "dataPath": "/dataPath",
+              "srcPath": "/srcPath",
+              "visualization": "/visualization",
+              "visualizationType": "/visualizationType",
+              "style": "/style"
+            }
+          }
+        },
+        "qChildren": [
+          {
+            "qProperty": {
+              "qInfo": {
+                "qId": "juzwtK",
+                "qType": "slideitem"
+              },
+              "qMetaDef": {},
+              "qEmbeddedSnapshotDef": {},
+              "title": "",
+              "sheetId": "41269041-721a-4a09-af60-389278182511",
+              "ratio": false,
+              "position": {
+                "top": "1%",
+                "left": "1.5%",
+                "width": "94%",
+                "height": "98%",
+                "z-index": 4
+              },
+              "visualization": "sheet"
+            },
+            "qChildren": [],
+            "qEmbeddedSnapshotRef": {
+              "qProperties": {
+                "qInfo": {
+                  "qId": "4c5d2760-b907-48e9-a59a-87091071defa",
+                  "qType": "embeddedsnapshot"
+                },
+                "qMetaDef": {
+                  "title": "",
+                  "description": ""
+                },
+                "creationDate": "2018-02-02T12:55:00.284Z",
+                "title": "",
+                "sheetId": "41269041-721a-4a09-af60-389278182511",
+                "selectionFields": []
+              },
+              "qBookmark": {
+                "qStateData": [
+                  {
+                    "qStateName": "$",
+                    "qFieldItems": []
+                  }
+                ],
+                "qUtcModifyTime": 43133.538194444445,
+                "qVariableItems": []
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
